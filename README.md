@@ -9,7 +9,7 @@ To write a program to predict the profit of a city using the linear regression m
 
 ## Algorithm
 
-1.Start
+1.Start\n
 2.Import the required libraries:
 3.NumPy
 4.Pandas
