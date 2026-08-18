@@ -9,46 +9,57 @@ To write a program to predict the profit of a city using the linear regression m
 
 ## Algorithm
 
-1.Start"\n"
+1.Start
 2.Import the required libraries:
-3.NumPy
-4.Pandas
-5.StandardScaler
-6.Load the 50_Startups.csv dataset.
-7.Select the three input features:
-8.R&D Spend
-9.Administration
-10.Marketing Spend
-11.Select Profit as the target variable.
-12.Standardize the input features using StandardScaler.
-13.Standardize the target variable.
-14.Add a bias column of 1s to the input matrix.
-15.Initialize the model parameters theta with zeros.
-16.Set the learning rate and number of iterations.
-17.Repeat the following steps for the specified number of iterations:
+NumPy
+Pandas
+StandardScaler
+Load the 50_Startups.csv dataset.
+Select the three input features:
+R&D Spend
+Administration
+Marketing Spend
+Select Profit as the target variable.
+Standardize the input features using StandardScaler.
+Standardize the target variable.
+Add a bias column of 1s to the input matrix.
+Initialize the model parameters theta with zeros.
+Set the learning rate and number of iterations.
+Repeat the following steps for the specified number of iterations:
 
-18.Calculate predictions:
+Calculate predictions:
 
-    predictions=Xθ
+predictions=Xθ
 
-19.Calculate errors:
+Calculate errors:
 
-    error=predictions−y
+error=predictions−y
 
-20.Update the parameters:
+Calculate the gradient:
 
-    θ=θ−α(gradient)
+gradient=
+n
+1
+	​
+
+X
+T
+(error)
+
+Update the parameters:
+
+θ=θ−α(gradient)
 Return the optimized values of theta.
 Take new startup data as input.
 Standardize the new input using the same scaler.
 Add the bias term.
 
-21.Calculate the scaled prediction using:
+Calculate the scaled prediction using:
 
-22.prediction=Xθ
-23.Convert the scaled prediction back to the original profit scale using inverse_transform().
-24.Display the predicted profit.
-25.Stop
+prediction=Xθ
+Convert the scaled prediction back to the original profit scale using inverse_transform().
+Display the predicted profit.
+Stop
 
 ## Program:
 
