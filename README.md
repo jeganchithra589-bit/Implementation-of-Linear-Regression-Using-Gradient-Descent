@@ -10,56 +10,46 @@ To write a program to predict the profit of a city using the linear regression m
 ## Algorithm
 
 1.Start<br>
-2.Import the required libraries:
-3.NumPy
-4.5.Pandas
-6.StandardScaler
-7.Load the 50_Startups.csv dataset.
-Select the three input features:
-R&D Spend
-Administration
-Marketing Spend
-Select Profit as the target variable.
-Standardize the input features using StandardScaler.
-Standardize the target variable.
-Add a bias column of 1s to the input matrix.
-Initialize the model parameters theta with zeros.
-Set the learning rate and number of iterations.
-Repeat the following steps for the specified number of iterations:
+2.Import the required libraries:<br>
+3.NumPy<br>
+4.Pandas<br>
+5.StandardScaler<br>
+6.Load the 50_Startups.csv dataset.<br>
+7.Select the three input features:<br>
+8.R&D Spend<br>
+9.Administration<br>
+10.Marketing Spend<br>
+11.Select Profit as the target variable.<br>
+12.Standardize the input features using StandardScaler.<br>
+13.Standardize the target variable.<br>
+14.Add a bias column of 1s to the input matrix.<br>
+15.Initialize the model parameters theta with zeros.<br>
+16.Set the learning rate and number of iterations.<br>
+17.Repeat the following steps for the specified number of iterations:<br>
 
-Calculate predictions:
+18.Calculate predictions:<br>
 
-predictions=Xθ
+predictions=Xθ<br>
 
-Calculate errors:
+19.Calculate errors:<br>
 
-error=predictions−y
+error=predictions−y<br>
 
-Calculate the gradient:
+20.Update the parameters:<br>
 
-gradient=
-n
-1
-	​
+θ=θ−α(gradient)<br>
 
-X
-T
-(error)
+21.Return the optimized values of theta.<br>
+Take new startup data as input.<br>
+Standardize the new input using the same scaler.<br>
+Add the bias term.<br>
 
-Update the parameters:
+22.Calculate the scaled prediction using:<br>
 
-θ=θ−α(gradient)
-Return the optimized values of theta.
-Take new startup data as input.
-Standardize the new input using the same scaler.
-Add the bias term.
-
-Calculate the scaled prediction using:
-
-prediction=Xθ
-Convert the scaled prediction back to the original profit scale using inverse_transform().
-Display the predicted profit.
-Stop
+prediction=Xθ<br>
+23.Convert the scaled prediction back to the original profit scale using inverse_transform().<br>
+24.Display the predicted profit.<br>
+25.Stop<br>
 
 ## Program:
 
