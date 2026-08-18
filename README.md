@@ -9,12 +9,12 @@ To write a program to predict the profit of a city using the linear regression m
 
 ## Algorithm
 
-**Start
-**Import the required libraries:
-NumPy
-Pandas
-StandardScaler
-Load the 50_Startups.csv dataset.
+1.Start<br>
+2.Import the required libraries:
+3.NumPy
+4.5.Pandas
+6.StandardScaler
+7.Load the 50_Startups.csv dataset.
 Select the three input features:
 R&D Spend
 Administration
