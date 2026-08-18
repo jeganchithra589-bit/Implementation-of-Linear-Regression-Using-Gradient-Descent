@@ -9,8 +9,8 @@ To write a program to predict the profit of a city using the linear regression m
 
 ## Algorithm
 
-1.Start
-2.Import the required libraries:
+**Start
+**Import the required libraries:
 NumPy
 Pandas
 StandardScaler
